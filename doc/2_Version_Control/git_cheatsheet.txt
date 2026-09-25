@@ -12,6 +12,7 @@ git pull
 
 git push
     Syncs local changes with remote repo
+    * "-u <remote> <branch>" makes a new <branch> on <remote>
 
 git merge <branch>
     Combines the deltas of <branch> with the active branch
@@ -21,3 +22,15 @@ git rebase <branch>
 
 git fetch
     Downloads changes from remote repo
+
+git add <file, ...>
+    Includes file(s) in next commit
+
+git status
+    Shows what changes are staged to be made
+
+git log
+    Shows history of commits
+
+git diff
+    Shows what's changed since the last commit
