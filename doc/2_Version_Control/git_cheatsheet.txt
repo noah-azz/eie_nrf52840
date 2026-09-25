@@ -1,0 +1,23 @@
+git commit
+    Creates a new snapshot of the current directory
+
+git branch
+    Creates a pointer to the current snapshot
+
+git checkout <branch>
+    Swaps active branch to <branch>, optionally specify "-b" to create a new one
+
+git pull
+    Fetches changes from remote and merges them with local repo
+
+git push
+    Syncs local changes with remote repo
+
+git merge <branch>
+    Combines the deltas of <branch> with the active branch
+
+git rebase <branch>
+    Applies the deltas from <branch> to the current branch
+
+git fetch
+    Downloads changes from remote repo
